@@ -1,0 +1,11 @@
+extends layout
+block content
+  h1= "Multi-Client Chat Room"
+  div(id="username")
+    input(type="text" name="usernameTxt")
+    input(type="button" name="setUsername" value="Set Username")
+  div(id="sendChat")
+    input(type="text" name="chatTxt")
+    input(type="button" name="sendBtn" value="Send")
+  br
+  div(id="content")
